@@ -14,3 +14,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GIT_EMAIL: marina024@proton.me
+        MIN_COMMITS_PER_DAY: 1
+        MAX_COMMITS_PER_DAY: 5
